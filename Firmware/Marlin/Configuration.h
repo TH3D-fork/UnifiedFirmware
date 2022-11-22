@@ -20,7 +20,7 @@
 // ***********   CREALITY PRINTERS W/V4.X.X BOARD - F103 CPU   **************
 //===========================================================================
 //------------------------------ V4.2.2 Board -------------------------------
-//#define ENDER3_V422_BOARD
+#define ENDER3_V422_BOARD
 //#define ENDER3_MAX_V422_BOARD
 //#define ENDER3_V2_V422_BOARD
 //#define ENDER5_V422_BOARD
