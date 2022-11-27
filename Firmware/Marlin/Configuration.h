@@ -861,7 +861,7 @@
     #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, CREALITY_Z_STEPS, 95 }
   #endif
 
-  #define SHOW_BOOTSCREEN
+  //#define SHOW_BOOTSCREEN
 
   #define EXTRUDERS 1
 
