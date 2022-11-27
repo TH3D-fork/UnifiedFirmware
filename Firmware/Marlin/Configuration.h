@@ -189,8 +189,8 @@
 // If you need to reverse the e motor direction also enabled the REVERSE_E_MOTOR_DIRECTION option.
 // Example EStep Values: TH3D Aluminum Extruder - 95 ESteps, TH3D Tough Extruder - 410 ESteps, BMG Extruder - 415 ESteps
 // When installing a Tough Extruder or E3D Titan or Bondtech that is Geared you likely need to enable the REVERSE_E_MOTOR_DIRECTION option
-//#define CUSTOM_ESTEPS
-#define CUSTOM_ESTEPS_VALUE 410
+#define CUSTOM_ESTEPS
+#define CUSTOM_ESTEPS_VALUE 433
 //#define REVERSE_E_MOTOR_DIRECTION
 
 // FILAMENT SENSOR UNLOAD SETTINGS -----------------
@@ -198,7 +198,7 @@
 //#define MOUNTED_FILAMENT_SENSOR
 
 // If you have a direct drive machine with a filament sensor uncomment DIRECT_DRIVE_PRINTER to decrease the unload length from 100mm to 20mm
-//#define DIRECT_DRIVE_PRINTER
+#define DIRECT_DRIVE_PRINTER
 
 // THERMISTOR SETTINGS -----------------------------
 
@@ -214,7 +214,7 @@
 
 // If you have a hotend and thermistor capable of over 290C you can set the max temp value below.
 // Setting this higher than 290C on a stock or traditional thermistor will damage it. Refer to your thermistor documentation to see what max temp is.
-//#define HIGH_TEMP_THERMISTOR
+#define HIGH_TEMP_THERMISTOR
 #define HIGH_TEMP_THERMISTOR_TEMP 350
 
 // BED THERMISTOR SETTINGS -------------------------
@@ -982,9 +982,10 @@
   #define TEMP_SENSOR_PROBE 0
   #define TEMP_SENSOR_CHAMBER 0
 
-  #define DEFAULT_Kp 28.72
-  #define DEFAULT_Ki 2.62
-  #define DEFAULT_Kd 78.81
+
+  #define DEFAULT_Kp 17.9
+  #define DEFAULT_Ki 1.66
+  #define DEFAULT_Kd 48.5
   
   #define DEFAULT_bedKp 462.10
   #define DEFAULT_bedKi 85.47
